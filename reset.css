@@ -1,0 +1,13 @@
+* {box-sizing:border-box;} /*기본적으로 box sizing*/
+html,body,div,h1,h2,p,form,fieldset,ul,li,input,button,a,img,select,option,footer{
+    margin:0; padding:0; /*여백 없애기*/
+    font-size:1.0rem; font-weight:normal; font-style: normal;
+    line-height: 1.0;
+}
+fieldset{border: 0;}
+legend {display: none;} /*의미적 존재, 디자인으로는 없어도 됨*/
+a {color: #000; text-decoration: none;}
+button {border: 0; background: none; cursor: pointer;}
+input {border: 0;}
+select {border: 0;}
+ul, li {list-style: none;}
